@@ -1,0 +1,38 @@
+{
+  "name": "organization-artificial-intelligence-computer-vision-website-application-electron",
+  "appId": "com.organization-artificial-intelligence-computer-vision-website-application.ronaldsonbellande.${name}",
+  "productName": "Organization-Artificial-Intelligence-Computer-Vision-Website-Application",
+  "version": "2.0.0",
+  "description": "A Linux desktop web app for Organization-Artificial-Intelligence-Computer-Vision-Website-Application",
+  "main": "scripts/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --publish never"
+  },
+  "build": {
+    "asar": false,
+    "linux": {
+      "target": [
+        "zip",
+        "AppImage"
+      ],
+      "category": "Entertainment",
+      "artifactName": "${name}_${version}_linux.${ext}"
+    },
+    "extraFiles": [
+      "com.organization-artificial-intelligence-computer-vision-website-application.ronaldsonbellande.${name}.desktop"
+    ]
+  },
+  "repository": "https://organization-artificial-intelligence-computer-vision-website-application.com/ronaldsonbellande/organization-artificial-intelligence-computer-vision-website-application-electron",
+  "keywords": [
+    "Electron",
+    "organization-artificial-intelligence-computer-vision-website-application",
+    "Organization-Artificial-Intelligence-Computer-Vision-Website-Application"
+  ],
+  "author": "Ronaldson Bellande <ronaldsonbellande@gmail.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4"
+  }
+}

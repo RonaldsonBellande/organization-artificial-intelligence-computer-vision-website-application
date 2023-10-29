@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Organization-Artificial-Intelligence-Computer-Vision-Website-Application
+Comment=entertainment services with organization-artificial-intelligence-computer-vision-website-application
+Comment[ro]=entertainment services with organization-artificial-intelligence-computer-vision-website-application
+Type=Application
+Exec=/opt/organization-artificial-intelligence-computer-vision-website-application-electron/organization-artificial-intelligence-computer-vision-website-application-electron
+Icon=organization-artificial-intelligence-computer-vision-website-application
+StartupWMClass=organization-artificial-intelligence-computer-vision-website-application
+Categories=Network;Entertainment
+Keywords=Entertainment;Streaming;Organization-Artificial-Intelligence-Computer-Vision-Website-Application;organization-artificial-intelligence-computer-vision-website-application;YT
+Keywords[ro]=Entertainment;Streaming
