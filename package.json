@@ -2,9 +2,9 @@
   "name": "organization-artificial-intelligence-computer-vision-website-application-electron",
   "appId": "com.organization-artificial-intelligence-computer-vision-website-application.ronaldsonbellande.${name}",
   "productName": "Organization-Artificial-Intelligence-Computer-Vision-Website-Application",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A Linux desktop web app for Organization-Artificial-Intelligence-Computer-Vision-Website-Application",
-  "main": "scripts/main.js",
+  "main": "scripts/index.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder --publish never"
